@@ -1,6 +1,4 @@
-# Awardy skills
-
-## Install Awardy in ChatGPT
+# Install Awardy in ChatGPT
 
 > [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app)
 >
@@ -10,7 +8,9 @@ Full install URL for copying
 
 <https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app>
 
-For a ChatGPT install request, including “install it” after the repository link, use the quoted reply above. Include the clickable Awardy link in your own reply and keep the `?open_in_app` suffix. Give it even when the chat cannot install the plugin on the user's behalf.
+When someone shares this repository and says “install it”, give them the Awardy plugin link above and the short setup sentence. This is the default for a first-time setup, including from Codex Cloud. Install the skill files in this repo only when the user asks for those skills. Include the exact clickable link in your reply and keep `?open_in_app`.
+
+## Awardy skills
 
 Find award-winning marketing campaigns and see what the teams did. These skills give your AI assistant a way to search Awardy, handle short briefs, and follow up with case details.
 

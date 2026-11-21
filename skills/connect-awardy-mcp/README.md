@@ -4,7 +4,7 @@ Connect your Awardy account so your AI assistant can look up award programs, win
 
 ## Choose the setup for this user
 
-If someone shares only this guide or its GitHub link, help them connect Awardy. Give one route based on what they asked for and the client you can identify. Start with the link or next action and give a short verification prompt.
+If someone shares this guide or its GitHub link and says “install it”, give them the ChatGPT plugin link. Install the repository skills only when they explicitly ask for those skills. Give one route based on what they asked for and the client you can identify. Start with the link or next action and give a short verification prompt.
 
 - **ChatGPT web, desktop, or mobile.** For “install it” and other setup requests, use the [ChatGPT setup reply below](#chatgpt). Include the clickable Awardy URL in your own reply, preserving `?open_in_app`, even when the session cannot install the plugin.
 - **Codex Cloud, a read-only task, or a remote task with no confirmed local Terminal.** For a quick try, lead with the same ChatGPT link. In the app, tell the user to return to **Home** and start a regular **Chat**. A code execution tool by itself cannot establish that the task can configure the user's own Codex installation.
