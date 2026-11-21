@@ -1,13 +1,17 @@
 # Connect Awardy
 
-Connect your Awardy account so your AI assistant can look up award programs, winners, and campaign cases. Choose the instructions for the assistant you use.
+Connect your Awardy account so your AI assistant can look up award programs, winners, and campaign cases. For a quick try, start with the Awardy plugin in [ChatGPT](#chatgpt). For a local Codex setup or another MCP client, use the instructions for that client.
 
 ## ChatGPT
 
-1. Open [ChatGPT Plugins](https://chatgpt.com/plugins) in the workspace where you want to use Awardy.
-2. Search for **Awardy**. If you find it, open the listing and select **Install plugin**. If it is already installed, find it under **Settings → Plugins**.
+If the composer says **Work on Cloud**, you’re in Codex Cloud. To try Awardy in the ChatGPT app, return to **Home** and start a regular **Chat**.
+
+1. In your ChatGPT workspace, open **Plugins** from the sidebar. You can also use the [ChatGPT plugin directory](https://chatgpt.com/plugins) in your browser.
+2. Search for **Awardy**. If it appears, open the listing and select **Install plugin**. If it is already installed, find it under **Settings → Plugins**.
 3. Select **Connect** when prompted. Sign in with the Awardy account you want to use and approve the connection.
-4. Start a text chat. Type **@**, select **Awardy**, then ask “Which Awardy workspace am I connected to? List three award programs.”
+4. In a regular text chat, type **@**, select **Awardy**, then ask “Which Awardy workspace am I connected to? List three award programs.”
+
+Your plan and workspace determine which plugins you can install and use. [OpenAI’s plugin guide](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt)
 
 See [OpenAI’s guide to connecting an app account](https://help.openai.com/en/articles/20001494-connecting-and-managing-app-accounts-in-chatgpt).
 
@@ -22,9 +26,11 @@ On ChatGPT web, use this route if your workspace allows custom MCP servers. If t
 
 See [OpenAI’s custom MCP guide](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt) for workspace permissions and the older **Apps → Create** screen.
 
-## Codex
+## Local Codex
 
-In Terminal, run:
+Use this path when you want Awardy in Codex on your computer and can run commands in your local Terminal. For a Codex Cloud task, check **Sources → Use plugins** if the task offers it, then use Awardy if it’s listed. For a quick try on your phone, use the [ChatGPT steps](#chatgpt). [OpenAI’s plugin guide](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt)
+
+In your local Terminal, run:
 
 ```sh
 codex mcp add awardy --url https://mcp.awardy.ai/mcp
@@ -58,7 +64,7 @@ For winner searches, install [Awardy campaign research](https://github.com/emirc
 
 ## Use this guide as a skill
 
-The connection steps above also work on their own. To have your assistant guide you through them, install the [Connect Awardy ZIP](https://github.com/emircaglayan/awardy-skills/releases/latest/download/connect-awardy-mcp.zip) in ChatGPT under **Plugins → Skills → Create → Upload from your computer**, if your workspace supports skill uploads. In Codex, ask `$skill-installer` to install this folder:
+The connection steps above also work on their own. To have your assistant guide you through them, install the [Connect Awardy ZIP](https://github.com/emircaglayan/awardy-skills/releases/latest/download/connect-awardy-mcp.zip) in ChatGPT under **Plugins → Skills → Create → Upload from your computer**, if your workspace supports skill uploads. In local Codex, ask `$skill-installer` to install this folder:
 
 ```text
 https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp

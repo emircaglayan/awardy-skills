@@ -2,12 +2,12 @@
 
 Use this skill to find award-winning marketing work by topic, industry, brand, competitor, or channel. It also works when you already know the award program, year, or category you want to see.
 
-Connect Awardy first using the [connection guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme). If you’re already connected, install the research skill and start with a question.
+In the ChatGPT app, start a regular Chat from Home and [connect the Awardy plugin](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#chatgpt). For a different client, see the full [connection guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme). If you’re already connected, install the research skill and start with a question.
 
 ## Install the skill
 
 - **ChatGPT.** Download the [campaign research ZIP](https://github.com/emircaglayan/awardy-skills/releases/latest/download/awardy-campaign-research.zip). In an eligible workspace, open **Plugins → Skills → Create → Upload from your computer** and select the ZIP. If that workspace lacks skill upload but supports file attachments, extract the ZIP and attach `SKILL.md` and both files in `references/` to the chat. Ask ChatGPT to follow the skill for that chat. [OpenAI’s skills guide](https://help.openai.com/en/articles/20001066-skills-in-chatgpt)
-- **Codex.** Send the following message in Codex, then start a chat and mention `$awardy-campaign-research`.
+- **Local Codex.** Send the following message in Codex on your computer, then start a chat and mention `$awardy-campaign-research`.
 
   > Use $skill-installer to install the skill at https://github.com/emircaglayan/awardy-skills/tree/main/skills/awardy-campaign-research
 
@@ -16,7 +16,7 @@ Connect Awardy first using the [connection guide](https://github.com/emircaglaya
 
 ## Try a search
 
-In ChatGPT, type **@** and select **Awardy** before the question. In other assistants, start with “Use Awardy to…” Here are a few examples.
+In a regular ChatGPT chat, type **@** and select **Awardy** before the question. In other assistants, start with “Use Awardy to…” Here are a few examples.
 
 - “Find standout creator-led campaigns that drove product trial.”
 - “Find me the best AI campaigns.”
