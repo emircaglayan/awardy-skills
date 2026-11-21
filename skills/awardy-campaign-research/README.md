@@ -2,7 +2,7 @@
 
 Use this skill to find award-winning marketing work by topic, industry, brand, competitor, or channel. It also works when you already know the award program, year, or category you want to see.
 
-In the ChatGPT app, start a regular Chat from Home and [connect the Awardy plugin](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#chatgpt). For a different client, see the full [connection guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme). If you’re already connected, install the research skill and start with a question.
+In the ChatGPT app, [open Plugins](https://chatgpt.com/plugins), search for **Awardy**, and connect your account. Then start a regular Chat from Home. For a different client, see the full [connection guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme). If you’re already connected, install the research skill and start with a question.
 
 ## Install the skill
 

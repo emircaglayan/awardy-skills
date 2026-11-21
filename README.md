@@ -9,8 +9,10 @@ Find award-winning marketing campaigns and see what the teams did. These skills 
 
 ## Get started
 
-1. Trying Awardy in the ChatGPT app? Start a regular Chat from Home and [connect the Awardy plugin](skills/connect-awardy-mcp/#chatgpt). For a different client, use the [connection guide](skills/connect-awardy-mcp/).
-2. [Install Awardy campaign research](skills/awardy-campaign-research/#install-the-skill).
-3. Try asking “Find standout creator-led campaigns that drove product trial.” In ChatGPT, select **@Awardy** first.
+[Open ChatGPT Plugins](https://chatgpt.com/plugins) and search for **Awardy**. Connect your Awardy account, then start a regular Chat and select **@Awardy**.
+
+Try asking “Find standout creator-led campaigns that drove product trial.” The [campaign research skill](skills/awardy-campaign-research/#install-the-skill) adds a guided workflow.
+
+For a different client, use the [connection guide](skills/connect-awardy-mcp/). If your assistant has trouble opening the GitHub page, give it the [plain-text setup guide](https://raw.githubusercontent.com/emircaglayan/awardy-skills/main/skills/connect-awardy-mcp/README.md).
 
 The skills contain instructions and examples. Search results and case material come from your connected [Awardy account](https://awardy.ai/), subject to the coverage and access of your workspace.
