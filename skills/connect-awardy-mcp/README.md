@@ -6,13 +6,15 @@ Connect your Awardy account so your AI assistant can look up award programs, win
 
 If someone shares only this guide or its GitHub link, help them connect Awardy. Give one route based on what they asked for and the client you can identify. Start with the link or next action and give a short verification prompt.
 
-- **ChatGPT web, desktop, or mobile.** Lead with [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app). Tell the user to install the plugin and connect their Awardy account, then select **@Awardy** in a regular Chat.
+- **ChatGPT web, desktop, or mobile.** For “install it” and other setup requests, put [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app) first in the reply. Tell the user to select **Install plugin**, then **Connect**, sign in to Awardy, and select **@Awardy** in a regular Chat. Give the link even when the current session cannot start installation.
 - **Codex Cloud, a read-only task, or a remote task with no confirmed local Terminal.** For a quick try, lead with the same ChatGPT link. In the app, tell the user to return to **Home** and start a regular **Chat**. A code execution tool by itself cannot establish that the task can configure the user's own Codex installation.
 - **Local Codex, Claude Code, or another MCP client.** Use that client’s instructions when the user names it or the current local client is clearly identified. Only run setup commands when they request that action and the session can configure the intended client.
 
 If you cannot identify the client and the user has no stated preference, give the ChatGPT route. Ask “Which app are you setting up Awardy in?” only when they need a different client and its identity is unclear. If the GitHub page fails to load, try this [plain-text guide](https://raw.githubusercontent.com/emircaglayan/awardy-skills/main/skills/connect-awardy-mcp/README.md).
 
 ## ChatGPT
+
+<https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app>
 
 If you’re in a Codex Cloud task, return to **Home** and start a regular **Chat** for this setup. The composer in Codex Cloud can say **Work on Cloud**.
 
