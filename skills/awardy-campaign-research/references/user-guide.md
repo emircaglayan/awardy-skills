@@ -2,7 +2,7 @@
 
 Start with the kind of work you want to see. Awardy finds campaigns by industry, brand, competitor, channel or practice, then explains what the teams did and what they reported. It uses award programs and categories to find the work and includes the recognition with each case.
 
-If you need to connect or install Awardy, follow the [Connect Awardy guide](https://github.com/mrcglyn/awardy-skills/tree/main/skills/connect-awardy-mcp#readme) for your assistant.
+If you need to connect or install Awardy, follow the [Connect Awardy guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme) for your assistant.
 
 ## Run a search with @Awardy
 

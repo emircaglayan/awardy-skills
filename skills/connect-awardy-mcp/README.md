@@ -54,14 +54,14 @@ Add a remote MCP server named **Awardy**. Use the URL `https://mcp.awardy.ai/mcp
 
 If your assistant can show the connected workspace, check that it is the one you want. If it can only list programs, that confirms it can reach Awardy. Winner access still depends on your Awardy workspace.
 
-For winner searches, install [Awardy campaign research](https://github.com/mrcglyn/awardy-skills/tree/main/skills/awardy-campaign-research#readme) and ask for the kind of work you want to see.
+For winner searches, install [Awardy campaign research](https://github.com/emircaglayan/awardy-skills/tree/main/skills/awardy-campaign-research#readme) and ask for the kind of work you want to see.
 
 ## Use this guide as a skill
 
-The connection steps above also work on their own. To have your assistant guide you through them, install the [Connect Awardy ZIP](https://github.com/mrcglyn/awardy-skills/releases/latest/download/connect-awardy-mcp.zip) in ChatGPT under **Plugins → Skills → Create → Upload from your computer**, if your workspace supports skill uploads. In Codex, ask `$skill-installer` to install this folder:
+The connection steps above also work on their own. To have your assistant guide you through them, install the [Connect Awardy ZIP](https://github.com/emircaglayan/awardy-skills/releases/latest/download/connect-awardy-mcp.zip) in ChatGPT under **Plugins → Skills → Create → Upload from your computer**, if your workspace supports skill uploads. In Codex, ask `$skill-installer` to install this folder:
 
 ```text
-https://github.com/mrcglyn/awardy-skills/tree/main/skills/connect-awardy-mcp
+https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp
 ```
 
 In Claude Code, extract the ZIP into `~/.claude/skills/connect-awardy-mcp/` and use `/connect-awardy-mcp`. In other assistants, use the skill installer if there is one, or give the assistant `SKILL.md` and this README.

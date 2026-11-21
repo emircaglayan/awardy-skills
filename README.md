@@ -4,8 +4,8 @@ Find award-winning marketing campaigns and see what the teams did. These skills 
 
 | Skill | Use it to | Download |
 | --- | --- | --- |
-| [Awardy campaign research](skills/awardy-campaign-research/) | Find winners by topic, industry, competitor, channel, award program, or category. Open the cases you want to explore. | [ZIP](https://github.com/mrcglyn/awardy-skills/releases/latest/download/awardy-campaign-research.zip) |
-| [Connect Awardy](skills/connect-awardy-mcp/) | Set up Awardy in ChatGPT, Codex, Claude Code, or another assistant with MCP support. | [ZIP](https://github.com/mrcglyn/awardy-skills/releases/latest/download/connect-awardy-mcp.zip) |
+| [Awardy campaign research](skills/awardy-campaign-research/) | Find winners by topic, industry, competitor, channel, award program, or category. Open the cases you want to explore. | [ZIP](https://github.com/emircaglayan/awardy-skills/releases/latest/download/awardy-campaign-research.zip) |
+| [Connect Awardy](skills/connect-awardy-mcp/) | Set up Awardy in ChatGPT, Codex, Claude Code, or another assistant with MCP support. | [ZIP](https://github.com/emircaglayan/awardy-skills/releases/latest/download/connect-awardy-mcp.zip) |
 
 ## Get started
 
