@@ -7,7 +7,7 @@ description: Find and explain award-winning campaigns with the Awardy ChatGPT ap
 
 Find campaigns that answer the user's marketing question. Lead with the work and what the user can learn from it. Use award programs and categories to guide the search and record the recognition alongside each case. For prompts and examples, use the [Awardy user guide](references/user-guide.md).
 
-Check for the Awardy winner tools when you are ready to search. In a regular ChatGPT chat, the user can select **@Awardy** in the message box if the app needs to be selected. If Awardy tools are unavailable, or the connection needs authorization, use the **Connect Awardy** skill (`connect-awardy-mcp`) if installed. Otherwise, share its [plain-text setup guide](https://raw.githubusercontent.com/emircaglayan/awardy-skills/main/skills/connect-awardy-mcp/README.md). Continue the original search once the connection works.
+Check for the Awardy winner tools when you are ready to search. In a regular ChatGPT chat, the user can select **@Awardy** in the message box if the app needs to be selected. If Awardy needs to be installed or connected in ChatGPT, send [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d). For other clients, use the **Connect Awardy** skill (`connect-awardy-mcp`) if installed. Otherwise, share its [plain-text setup guide](https://raw.githubusercontent.com/emircaglayan/awardy-skills/main/skills/connect-awardy-mcp/README.md). Continue the original search once the connection works.
 
 ## Decide whether to ask or search
 

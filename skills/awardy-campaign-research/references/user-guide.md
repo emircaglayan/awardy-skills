@@ -2,11 +2,11 @@
 
 Start with the kind of work you want to see. Awardy finds campaigns by industry, brand, competitor, channel or practice, then explains what the teams did and what they reported. It uses award programs and categories to find the work and includes the recognition with each case.
 
-If you need to connect or install Awardy, follow the [Connect Awardy guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme) for your assistant.
+To set up the plugin, [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d) and connect your account. For other clients, follow the [Connect Awardy guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme) for your assistant.
 
 ## Run a search with @Awardy
 
-1. Start a new text chat. In the message box, type **@** and select **Awardy** from the menu. You can also open **+** and select Awardy where that option is available.
+1. Start a regular ChatGPT chat from Home. In the message box, type **@** and select **Awardy** from the menu. You can also open **+** and select Awardy where that option is available.
 2. After the Awardy mention appears in your message, ask what you want to see. For example:
 
 > Find standout product launches in Southeast Asia.
