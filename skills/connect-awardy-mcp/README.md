@@ -1,12 +1,12 @@
 # Connect Awardy
 
-Connect your Awardy account so your AI assistant can look up award programs, winners, and campaign cases. For a quick try, [open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d), install the plugin, and connect your account. Then open a regular **Chat** and select **@Awardy**.
+Connect your Awardy account so your AI assistant can look up award programs, winners, and campaign cases. For a quick try, [open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app), install the plugin, and connect your account. Then open a regular **Chat** and select **@Awardy**.
 
 ## Choose the setup for this user
 
 If someone shares only this guide or its GitHub link, help them connect Awardy. Give one route based on what they asked for and the client you can identify. Start with the link or next action and give a short verification prompt.
 
-- **ChatGPT web, desktop, or mobile.** Lead with [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d). Tell the user to install the plugin and connect their Awardy account, then select **@Awardy** in a regular Chat.
+- **ChatGPT web, desktop, or mobile.** Lead with [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app). Tell the user to install the plugin and connect their Awardy account, then select **@Awardy** in a regular Chat.
 - **Codex Cloud, a read-only task, or a remote task with no confirmed local Terminal.** For a quick try, lead with the same ChatGPT link. In the app, tell the user to return to **Home** and start a regular **Chat**. A code execution tool by itself cannot establish that the task can configure the user's own Codex installation.
 - **Local Codex, Claude Code, or another MCP client.** Use that client’s instructions when the user names it or the current local client is clearly identified. Only run setup commands when they request that action and the session can configure the intended client.
 
@@ -16,7 +16,7 @@ If you cannot identify the client and the user has no stated preference, give th
 
 If you’re in a Codex Cloud task, return to **Home** and start a regular **Chat** for this setup. The composer in Codex Cloud can say **Work on Cloud**.
 
-1. [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d) using your intended ChatGPT workspace.
+1. [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app) using your intended ChatGPT workspace.
 2. Select **Install plugin**, then select **Connect** when prompted. Sign in to your Awardy account and approve the connection. If you’ve already installed the plugin, open a regular Chat.
 3. In a regular text chat, type **@**, select **Awardy**, and ask “Which Awardy workspace am I connected to? List three award programs.”
 
@@ -24,7 +24,7 @@ If you’re in a Codex Cloud task, return to **Home** and start a regular **Chat
 
 ## Local Codex
 
-Use this path when you want Awardy in Codex on your computer and can run commands in your local Terminal. If you specifically want it inside a Codex Cloud task, install Awardy using the [direct plugin link](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d), then select it from **Sources → Use plugins** in a task that supports plugins. For a quick try from a Cloud task, use the [ChatGPT steps](#chatgpt). [OpenAI’s plugin guide](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt)
+Use this path when you want Awardy in Codex on your computer and can run commands in your local Terminal. If you specifically want it inside a Codex Cloud task, install Awardy using the [direct plugin link](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app), then select it from **Sources → Use plugins** in a task that supports plugins. For a quick try from a Cloud task, use the [ChatGPT steps](#chatgpt). [OpenAI’s plugin guide](https://help.openai.com/en/articles/20001256-plugins-in-chatgpt)
 
 In your local Terminal, run:
 

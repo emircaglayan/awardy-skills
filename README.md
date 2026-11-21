@@ -9,7 +9,7 @@ Find award-winning marketing campaigns and see what the teams did. These skills 
 
 ## Get started
 
-[Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d). Install the plugin and connect your Awardy account, then start a regular Chat and select **@Awardy**.
+[Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app). Install the plugin and connect your Awardy account, then start a regular Chat and select **@Awardy**.
 
 Try asking “Find standout creator-led campaigns that drove product trial.” The [campaign research skill](skills/awardy-campaign-research/#install-the-skill) adds a guided workflow.
 

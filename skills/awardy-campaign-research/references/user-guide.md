@@ -2,7 +2,7 @@
 
 Start with the kind of work you want to see. Awardy finds campaigns by industry, brand, competitor, channel or practice, then explains what the teams did and what they reported. It uses award programs and categories to find the work and includes the recognition with each case.
 
-To set up the plugin, [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d) and connect your account. For other clients, follow the [Connect Awardy guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme) for your assistant.
+To set up the plugin, [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app) and connect your account. For other clients, follow the [Connect Awardy guide](https://github.com/emircaglayan/awardy-skills/tree/main/skills/connect-awardy-mcp#readme) for your assistant.
 
 ## Run a search with @Awardy
 
