@@ -6,13 +6,17 @@ Connect your Awardy account so your AI assistant can look up award programs, win
 
 If someone shares only this guide or its GitHub link, help them connect Awardy. Give one route based on what they asked for and the client you can identify. Start with the link or next action and give a short verification prompt.
 
-- **ChatGPT web, desktop, or mobile.** For “install it” and other setup requests, put [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app) first in the reply. Tell the user to select **Install plugin**, then **Connect**, sign in to Awardy, and select **@Awardy** in a regular Chat. Give the link even when the current session cannot start installation.
+- **ChatGPT web, desktop, or mobile.** For “install it” and other setup requests, use the [ChatGPT setup reply below](#chatgpt). Include the clickable Awardy URL in your own reply, preserving `?open_in_app`, even when the session cannot install the plugin.
 - **Codex Cloud, a read-only task, or a remote task with no confirmed local Terminal.** For a quick try, lead with the same ChatGPT link. In the app, tell the user to return to **Home** and start a regular **Chat**. A code execution tool by itself cannot establish that the task can configure the user's own Codex installation.
 - **Local Codex, Claude Code, or another MCP client.** Use that client’s instructions when the user names it or the current local client is clearly identified. Only run setup commands when they request that action and the session can configure the intended client.
 
 If you cannot identify the client and the user has no stated preference, give the ChatGPT route. Ask “Which app are you setting up Awardy in?” only when they need a different client and its identity is unclear. If the GitHub page fails to load, try this [plain-text guide](https://raw.githubusercontent.com/emircaglayan/awardy-skills/main/skills/connect-awardy-mcp/README.md).
 
 ## ChatGPT
+
+> [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app)
+>
+> Select **Install plugin**, then **Connect**. Sign in to Awardy, open a regular Chat, and select **@Awardy**.
 
 <https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app>
 

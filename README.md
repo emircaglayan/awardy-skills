@@ -2,11 +2,15 @@
 
 ## Install Awardy in ChatGPT
 
+> [Open Awardy in ChatGPT](https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app)
+>
+> Select **Install plugin**, then **Connect**. Sign in to Awardy, open a regular Chat, and select **@Awardy**.
+
+Full install URL for copying
+
 <https://chatgpt.com/plugins/plugin_asdk_app_6aca6016a0ac8191b65c654f21dcbe2d?open_in_app>
 
-Select **Install plugin**, then **Connect**, and sign in to Awardy. Open a regular Chat and select **@Awardy**.
-
-For assistants helping someone install or connect Awardy in ChatGPT, including a follow-up like “install it”, put the exact URL above in your reply as the first clickable link, labeled **Open Awardy in ChatGPT**. Give the steps here so the user can complete setup from your reply.
+For a ChatGPT install request, including “install it” after the repository link, use the quoted reply above. Include the clickable Awardy link in your own reply and keep the `?open_in_app` suffix. Give it even when the chat cannot install the plugin on the user's behalf.
 
 Find award-winning marketing campaigns and see what the teams did. These skills give your AI assistant a way to search Awardy, handle short briefs, and follow up with case details.
 
