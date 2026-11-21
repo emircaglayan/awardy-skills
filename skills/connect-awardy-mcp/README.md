@@ -52,7 +52,11 @@ claude mcp add --transport http --scope user awardy https://mcp.awardy.ai/mcp
 
 Start a new Claude Code session. Open `/mcp`, select **awardy**, and follow the sign-in prompt. Then try “Use Awardy to tell me which workspace I’m connected to and list three award programs.”
 
-See [Claude Code’s MCP guide](https://code.claude.com/docs/en/mcp).
+### Find the Awardy tools in Claude Code
+
+Claude Code can load MCP tools on demand. Ask it to look for Awardy’s tools, such as `search_winners`. If it can’t find them, open `/mcp` in Claude Code to check the connection and sign in if prompted. Run `claude mcp get awardy` from the project folder to see its configuration and connection status. A local-scope connection is available in the project where it was added. The user-scope setup above is available across your projects.
+
+[Claude Code’s MCP guide](https://code.claude.com/docs/en/mcp)
 
 ## Another MCP-compatible assistant
 
